@@ -1,0 +1,764 @@
+{
+    "intents": [
+        {
+            "tag": "fir_registration",
+            "patterns": [
+                "Where to register an FIR? (18)",
+                "How can I file an FIR? (29)",
+                "How can I file an FIR? (22)",
+                "Where to register an FIR? (3)",
+                "FIR kaise karein? (12)",
+                "How can I file an FIR? (15)",
+                "Where to register an FIR? (13)",
+                "FIR kaise karein? (19)",
+                "How can I file an FIR? (9)",
+                "FIR kaise karein? (24)",
+                "How can I file an FIR? (11)",
+                "FIR kaise karein? (14)",
+                "Where to register an FIR? (6)",
+                "Where to register an FIR? (5)",
+                "Where to register an FIR? (25)",
+                "Where to register an FIR? (15)",
+                "How can I file an FIR? (1)",
+                "How can I file an FIR? (12)",
+                "Where to register an FIR? (17)",
+                "How can I file an FIR? (16)"
+            ],
+            "responses": [
+                "You can file an FIR at the nearest police station or online in some states. Provide details like date, time, and incident description."
+            ]
+        },
+        {
+            "tag": "bail_process",
+            "patterns": [
+                "Can I apply for bail immediately? (5)",
+                "How to get bail? (10)",
+                "Can I apply for bail immediately? (28)",
+                "Can I apply for bail immediately? (15)",
+                "Bail lene ka process kya hai? (5)",
+                "Bail lene ka process kya hai? (23)",
+                "How to get bail? (26)",
+                "Bail lene ka process kya hai? (11)",
+                "How to get bail? (19)",
+                "Bail lene ka process kya hai? (26)",
+                "How to get bail? (17)",
+                "How to get bail? (28)",
+                "How to get bail? (7)",
+                "Can I apply for bail immediately? (25)",
+                "Bail lene ka process kya hai? (14)",
+                "Bail lene ka process kya hai? (18)",
+                "Bail lene ka process kya hai? (17)",
+                "Can I apply for bail immediately? (12)",
+                "Can I apply for bail immediately? (11)",
+                "Bail lene ka process kya hai? (15)"
+            ],
+            "responses": [
+                "You can apply for bail through a lawyer in court. The process depends on whether the offense is bailable or non-bailable."
+            ]
+        },
+        {
+            "tag": "marriage_registration",
+            "patterns": [
+                "Shaadi register kaise karein? (17)",
+                "Shaadi register kaise karein? (13)",
+                "How to register a marriage? (27)",
+                "How to register a marriage? (8)",
+                "Shaadi register kaise karein? (15)",
+                "Marriage registration process? (22)",
+                "Marriage registration process? (9)",
+                "Marriage registration process? (14)",
+                "How to register a marriage? (6)",
+                "How to register a marriage? (25)",
+                "Shaadi register kaise karein? (14)",
+                "How to register a marriage? (16)",
+                "Marriage registration process? (3)",
+                "How to register a marriage? (3)",
+                "How to register a marriage? (18)",
+                "Marriage registration process? (11)",
+                "Shaadi register kaise karein? (19)",
+                "How to register a marriage? (23)",
+                "How to register a marriage? (12)",
+                "Marriage registration process? (2)"
+            ],
+            "responses": [
+                "Visit the Sub-Registrar office with marriage proof and identity documents to register your marriage."
+            ]
+        },
+        {
+            "tag": "divorce_procedure",
+            "patterns": [
+                "Talaq kaise lein? (9)",
+                "How to file for divorce? (0)",
+                "How to file for divorce? (19)",
+                "Talaq kaise lein? (8)",
+                "Talaq kaise lein? (6)",
+                "Divorce procedure in India? (9)",
+                "Divorce procedure in India? (10)",
+                "Divorce procedure in India? (28)",
+                "Talaq kaise lein? (12)",
+                "Talaq kaise lein? (21)",
+                "How to file for divorce? (6)",
+                "How to file for divorce? (26)",
+                "Divorce procedure in India? (13)",
+                "Talaq kaise lein? (27)",
+                "Talaq kaise lein? (26)",
+                "Talaq kaise lein? (22)",
+                "How to file for divorce? (7)",
+                "Divorce procedure in India? (0)",
+                "Talaq kaise lein? (28)",
+                "Divorce procedure in India? (17)"
+            ],
+            "responses": [
+                "Divorce can be filed mutually or contested. Contact a family lawyer to begin proceedings based on your situation."
+            ]
+        },
+        {
+            "tag": "property_dispute",
+            "patterns": [
+                "Jameen ka vivad kaise suljhaayein? (14)",
+                "How to resolve property disputes? (11)",
+                "Jameen ka vivad kaise suljhaayein? (15)",
+                "How to resolve property disputes? (9)",
+                "How to resolve property disputes? (16)",
+                "Jameen ka vivad kaise suljhaayein? (12)",
+                "Jameen ka vivad kaise suljhaayein? (23)",
+                "My land is encroached, what to do? (18)",
+                "My land is encroached, what to do? (10)",
+                "My land is encroached, what to do? (1)",
+                "Jameen ka vivad kaise suljhaayein? (21)",
+                "My land is encroached, what to do? (28)",
+                "Jameen ka vivad kaise suljhaayein? (1)",
+                "Jameen ka vivad kaise suljhaayein? (6)",
+                "Jameen ka vivad kaise suljhaayein? (5)",
+                "My land is encroached, what to do? (11)",
+                "Jameen ka vivad kaise suljhaayein? (20)",
+                "My land is encroached, what to do? (21)",
+                "Jameen ka vivad kaise suljhaayein? (27)",
+                "My land is encroached, what to do? (6)"
+            ],
+            "responses": [
+                "You can file a civil suit in court and present ownership documents to resolve property disputes."
+            ]
+        },
+        {
+            "tag": "rental_agreement",
+            "patterns": [
+                "How to make a rent agreement? (29)",
+                "How to make a rent agreement? (7)",
+                "Kiraye ka contract kaise banayein? (3)",
+                "Kiraye ka contract kaise banayein? (28)",
+                "Rent agreement online? (18)",
+                "Rent agreement online? (29)",
+                "Rent agreement online? (6)",
+                "Kiraye ka contract kaise banayein? (21)",
+                "Kiraye ka contract kaise banayein? (10)",
+                "Kiraye ka contract kaise banayein? (0)",
+                "Rent agreement online? (26)",
+                "How to make a rent agreement? (17)",
+                "Kiraye ka contract kaise banayein? (11)",
+                "How to make a rent agreement? (27)",
+                "How to make a rent agreement? (22)",
+                "Kiraye ka contract kaise banayein? (4)",
+                "How to make a rent agreement? (4)",
+                "Kiraye ka contract kaise banayein? (18)",
+                "How to make a rent agreement? (12)",
+                "How to make a rent agreement? (25)"
+            ],
+            "responses": [
+                "You can create a rental agreement using a template and get it notarized or registered for legality."
+            ]
+        },
+        {
+            "tag": "cyber_crime",
+            "patterns": [
+                "Where to report cyber crime? (20)",
+                "Cyber complaint kaise karein? (17)",
+                "Online fraud report kaise karein? (11)",
+                "Cyber complaint kaise karein? (26)",
+                "Cyber complaint kaise karein? (15)",
+                "Cyber complaint kaise karein? (11)",
+                "Cyber complaint kaise karein? (6)",
+                "Cyber complaint kaise karein? (7)",
+                "Cyber complaint kaise karein? (28)",
+                "Cyber complaint kaise karein? (14)",
+                "Online fraud report kaise karein? (2)",
+                "Where to report cyber crime? (21)",
+                "Online fraud report kaise karein? (16)",
+                "Online fraud report kaise karein? (29)",
+                "Cyber complaint kaise karein? (5)",
+                "Online fraud report kaise karein? (5)",
+                "Where to report cyber crime? (6)",
+                "Cyber complaint kaise karein? (20)",
+                "Where to report cyber crime? (15)",
+                "Cyber complaint kaise karein? (4)"
+            ],
+            "responses": [
+                "You can report cyber crimes at cybercrime.gov.in or visit a local cyber cell police station."
+            ]
+        },
+        {
+            "tag": "traffic_fine",
+            "patterns": [
+                "Check traffic fine online? (19)",
+                "Check traffic fine online? (20)",
+                "Check traffic fine online? (0)",
+                "Traffic challan kaise dekhein? (17)",
+                "Traffic challan kaise dekhein? (12)",
+                "Fine payment portal? (8)",
+                "Fine payment portal? (27)",
+                "Traffic challan kaise dekhein? (21)",
+                "Fine payment portal? (28)",
+                "Check traffic fine online? (26)",
+                "Fine payment portal? (21)",
+                "Traffic challan kaise dekhein? (27)",
+                "Traffic challan kaise dekhein? (9)",
+                "Traffic challan kaise dekhein? (25)",
+                "Traffic challan kaise dekhein? (2)",
+                "Fine payment portal? (13)",
+                "Check traffic fine online? (14)",
+                "Traffic challan kaise dekhein? (1)",
+                "Traffic challan kaise dekhein? (29)",
+                "Fine payment portal? (5)"
+            ],
+            "responses": [
+                "You can check and pay your traffic fines on your state transport department website or apps like Parivahan."
+            ]
+        },
+        {
+            "tag": "court_hearing_status",
+            "patterns": [
+                "How to check court case status? (22)",
+                "How to check court case status? (16)",
+                "Case hearing kab hai? (10)",
+                "Case hearing kab hai? (14)",
+                "Case hearing kab hai? (28)",
+                "Court hearing online dekhna hai. (2)",
+                "Case hearing kab hai? (11)",
+                "How to check court case status? (21)",
+                "Case hearing kab hai? (6)",
+                "Court hearing online dekhna hai. (23)",
+                "Court hearing online dekhna hai. (1)",
+                "Court hearing online dekhna hai. (25)",
+                "Court hearing online dekhna hai. (3)",
+                "How to check court case status? (13)",
+                "Court hearing online dekhna hai. (10)",
+                "How to check court case status? (17)",
+                "Case hearing kab hai? (16)",
+                "How to check court case status? (14)",
+                "Case hearing kab hai? (20)",
+                "Court hearing online dekhna hai. (19)"
+            ],
+            "responses": [
+                "You can visit ecourts.gov.in and enter your case number or party name to check status."
+            ]
+        },
+        {
+            "tag": "income_tax_return",
+            "patterns": [
+                "Income tax return filing? (8)",
+                "ITR kaise file karein? (2)",
+                "Income tax return filing? (14)",
+                "Income tax return filing? (11)",
+                "ITR kaise file karein? (5)",
+                "How to file ITR? (28)",
+                "ITR kaise file karein? (26)",
+                "How to file ITR? (24)",
+                "How to file ITR? (0)",
+                "Income tax return filing? (20)",
+                "How to file ITR? (21)",
+                "Income tax return filing? (2)",
+                "How to file ITR? (26)",
+                "Income tax return filing? (24)",
+                "ITR kaise file karein? (14)",
+                "ITR kaise file karein? (23)",
+                "How to file ITR? (15)",
+                "How to file ITR? (7)",
+                "Income tax return filing? (7)",
+                "ITR kaise file karein? (11)"
+            ],
+            "responses": [
+                "Log in to the Income Tax portal (incometax.gov.in), choose the correct form, and submit required details."
+            ]
+        },
+        {
+            "tag": "synthetic_category_1",
+            "patterns": [
+                "What is synthetic topic 1?",
+                "Tell me about synthetic category 1",
+                "How does synthetic process 1 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 1.",
+                "Synthetic category 1 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_2",
+            "patterns": [
+                "What is synthetic topic 2?",
+                "Tell me about synthetic category 2",
+                "How does synthetic process 2 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 2.",
+                "Synthetic category 2 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_3",
+            "patterns": [
+                "What is synthetic topic 3?",
+                "Tell me about synthetic category 3",
+                "How does synthetic process 3 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 3.",
+                "Synthetic category 3 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_4",
+            "patterns": [
+                "What is synthetic topic 4?",
+                "Tell me about synthetic category 4",
+                "How does synthetic process 4 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 4.",
+                "Synthetic category 4 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_5",
+            "patterns": [
+                "What is synthetic topic 5?",
+                "Tell me about synthetic category 5",
+                "How does synthetic process 5 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 5.",
+                "Synthetic category 5 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_6",
+            "patterns": [
+                "What is synthetic topic 6?",
+                "Tell me about synthetic category 6",
+                "How does synthetic process 6 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 6.",
+                "Synthetic category 6 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_7",
+            "patterns": [
+                "What is synthetic topic 7?",
+                "Tell me about synthetic category 7",
+                "How does synthetic process 7 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 7.",
+                "Synthetic category 7 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_8",
+            "patterns": [
+                "What is synthetic topic 8?",
+                "Tell me about synthetic category 8",
+                "How does synthetic process 8 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 8.",
+                "Synthetic category 8 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_9",
+            "patterns": [
+                "What is synthetic topic 9?",
+                "Tell me about synthetic category 9",
+                "How does synthetic process 9 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 9.",
+                "Synthetic category 9 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_10",
+            "patterns": [
+                "What is synthetic topic 10?",
+                "Tell me about synthetic category 10",
+                "How does synthetic process 10 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 10.",
+                "Synthetic category 10 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_11",
+            "patterns": [
+                "What is synthetic topic 11?",
+                "Tell me about synthetic category 11",
+                "How does synthetic process 11 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 11.",
+                "Synthetic category 11 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_12",
+            "patterns": [
+                "What is synthetic topic 12?",
+                "Tell me about synthetic category 12",
+                "How does synthetic process 12 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 12.",
+                "Synthetic category 12 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_13",
+            "patterns": [
+                "What is synthetic topic 13?",
+                "Tell me about synthetic category 13",
+                "How does synthetic process 13 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 13.",
+                "Synthetic category 13 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_14",
+            "patterns": [
+                "What is synthetic topic 14?",
+                "Tell me about synthetic category 14",
+                "How does synthetic process 14 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 14.",
+                "Synthetic category 14 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_15",
+            "patterns": [
+                "What is synthetic topic 15?",
+                "Tell me about synthetic category 15",
+                "How does synthetic process 15 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 15.",
+                "Synthetic category 15 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_16",
+            "patterns": [
+                "What is synthetic topic 16?",
+                "Tell me about synthetic category 16",
+                "How does synthetic process 16 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 16.",
+                "Synthetic category 16 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_17",
+            "patterns": [
+                "What is synthetic topic 17?",
+                "Tell me about synthetic category 17",
+                "How does synthetic process 17 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 17.",
+                "Synthetic category 17 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_18",
+            "patterns": [
+                "What is synthetic topic 18?",
+                "Tell me about synthetic category 18",
+                "How does synthetic process 18 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 18.",
+                "Synthetic category 18 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_19",
+            "patterns": [
+                "What is synthetic topic 19?",
+                "Tell me about synthetic category 19",
+                "How does synthetic process 19 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 19.",
+                "Synthetic category 19 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_20",
+            "patterns": [
+                "What is synthetic topic 20?",
+                "Tell me about synthetic category 20",
+                "How does synthetic process 20 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 20.",
+                "Synthetic category 20 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_21",
+            "patterns": [
+                "What is synthetic topic 21?",
+                "Tell me about synthetic category 21",
+                "How does synthetic process 21 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 21.",
+                "Synthetic category 21 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_22",
+            "patterns": [
+                "What is synthetic topic 22?",
+                "Tell me about synthetic category 22",
+                "How does synthetic process 22 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 22.",
+                "Synthetic category 22 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_23",
+            "patterns": [
+                "What is synthetic topic 23?",
+                "Tell me about synthetic category 23",
+                "How does synthetic process 23 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 23.",
+                "Synthetic category 23 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_24",
+            "patterns": [
+                "What is synthetic topic 24?",
+                "Tell me about synthetic category 24",
+                "How does synthetic process 24 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 24.",
+                "Synthetic category 24 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_25",
+            "patterns": [
+                "What is synthetic topic 25?",
+                "Tell me about synthetic category 25",
+                "How does synthetic process 25 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 25.",
+                "Synthetic category 25 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_26",
+            "patterns": [
+                "What is synthetic topic 26?",
+                "Tell me about synthetic category 26",
+                "How does synthetic process 26 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 26.",
+                "Synthetic category 26 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_27",
+            "patterns": [
+                "What is synthetic topic 27?",
+                "Tell me about synthetic category 27",
+                "How does synthetic process 27 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 27.",
+                "Synthetic category 27 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_28",
+            "patterns": [
+                "What is synthetic topic 28?",
+                "Tell me about synthetic category 28",
+                "How does synthetic process 28 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 28.",
+                "Synthetic category 28 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_29",
+            "patterns": [
+                "What is synthetic topic 29?",
+                "Tell me about synthetic category 29",
+                "How does synthetic process 29 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 29.",
+                "Synthetic category 29 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_30",
+            "patterns": [
+                "What is synthetic topic 30?",
+                "Tell me about synthetic category 30",
+                "How does synthetic process 30 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 30.",
+                "Synthetic category 30 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_31",
+            "patterns": [
+                "What is synthetic topic 31?",
+                "Tell me about synthetic category 31",
+                "How does synthetic process 31 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 31.",
+                "Synthetic category 31 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_32",
+            "patterns": [
+                "What is synthetic topic 32?",
+                "Tell me about synthetic category 32",
+                "How does synthetic process 32 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 32.",
+                "Synthetic category 32 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_33",
+            "patterns": [
+                "What is synthetic topic 33?",
+                "Tell me about synthetic category 33",
+                "How does synthetic process 33 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 33.",
+                "Synthetic category 33 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_34",
+            "patterns": [
+                "What is synthetic topic 34?",
+                "Tell me about synthetic category 34",
+                "How does synthetic process 34 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 34.",
+                "Synthetic category 34 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_35",
+            "patterns": [
+                "What is synthetic topic 35?",
+                "Tell me about synthetic category 35",
+                "How does synthetic process 35 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 35.",
+                "Synthetic category 35 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_36",
+            "patterns": [
+                "What is synthetic topic 36?",
+                "Tell me about synthetic category 36",
+                "How does synthetic process 36 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 36.",
+                "Synthetic category 36 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_37",
+            "patterns": [
+                "What is synthetic topic 37?",
+                "Tell me about synthetic category 37",
+                "How does synthetic process 37 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 37.",
+                "Synthetic category 37 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_38",
+            "patterns": [
+                "What is synthetic topic 38?",
+                "Tell me about synthetic category 38",
+                "How does synthetic process 38 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 38.",
+                "Synthetic category 38 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_39",
+            "patterns": [
+                "What is synthetic topic 39?",
+                "Tell me about synthetic category 39",
+                "How does synthetic process 39 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 39.",
+                "Synthetic category 39 helps in testing dataset structure."
+            ]
+        },
+        {
+            "tag": "synthetic_category_40",
+            "patterns": [
+                "What is synthetic topic 40?",
+                "Tell me about synthetic category 40",
+                "How does synthetic process 40 work?"
+            ],
+            "responses": [
+                "This is a synthetic response for category 40.",
+                "Synthetic category 40 helps in testing dataset structure."
+            ]
+        }
+    ]
+}
