@@ -13,13 +13,13 @@ Step 1:User Inputs a Question
 
 Step 2:  Preprocessing the Query
 
-   2.1 Lowercasing
+    2.1 Lowercasing
      Converts all characters in the user’s query to lowercase.
      Helps standardize text and avoid confusion between "FIR" and "fir".
      Example: "How To File an FIR?" → "how to file an fir?"
 
 
-   2.2 Punctuation Removal
+    2.2 Punctuation Removal
      Removes symbols like commas, question marks, and periods that don't affect intent.
      This avoids noise in the data and makes tokenization cleaner.
      Example: "how to file an fir?" → "how to file an fir"
@@ -55,20 +55,20 @@ Step 5: - Response Retrieval
 
 Step 6: - Reply Delivered to User
 
-     he chatbot displays the response via React-based UI. It feels like a real conversation, tailored to the user’s query.
+      The chatbot displays the response via React-based UI. It feels like a real conversation, tailored to the user’s query.
 
 
 🔧 Future Improvements:
 
-- Data Storage: Upgrade from static intents.json to real-time database (like MongoDB)
+     - Data Storage: Upgrade from static intents.json to real-time database (like MongoDB)
 
-- Multilingual Support: Add translation for Hindi or regional languages using Google APIs
+     - Multilingual Support: Add translation for Hindi or regional languages using Google APIs
 
-- Voice Input: Integrate Speech-to-Text so users can talk to the chatbot
+     - Voice Input: Integrate Speech-to-Text so users can talk to the chatbot
 
-- AI-based Fallbacks: Connect to GPT models for dynamically generating answers when no match is found
+     - AI-based Fallbacks: Connect to GPT models for dynamically generating answers when no match is found
 
-- Integrate the chatbot with websites and mobile apps, making legal assistance accessible through web portals and smartphone applications.
+    - Integrate the chatbot with websites and mobile apps, making legal assistance accessible through web portals and smartphone applications.
 
 
 
